@@ -12,17 +12,34 @@
 
 
 <body>
+  <ul id="cadastro-dropdown" class="dropdown-content">
+        <li><a href="#!">Cliente</a></li>
+        <li><a href="#!">Fornecedor</a></li>
+        <li><a href="#!">Funcionário</a></li>
+  </ul>
+  <ul id="relatorio-dropdown" class="dropdown-content">
+        <li><a href="#!">Cliente</a></li>
+        <li><a href="#!">Fornecedor</a></li>
+        <li><a href="#!">Estoque baixo</a></li>
+        <li><a href="#!">Mercadorias</a></li>
+        <li><a href="#!">Pedidos de compra</a></li>
+        <li><a href="#!">Pedido a imprimir</a></li>
+        
+  </ul>
+  
+    <ul id="recurso-dropdown" class="dropdown-content">
+        <li><a href="#!">Funcionários</a></li>
+  </ul>
     
   <nav>
     <div class="nav-wrapper">
         <a class="brand-logo">
-            <img src="icons/gitanio_white.png" alt="Gitânio"/> <span id="logo-text">itânio ADM</span>
-            
+            <img src="icons/gitanio_white.png" alt="Gitânio"/> <span id="logo-text">itânio ADM</span>  
         </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="Fornecedor Cliente">Cadastro</a></li>
-        <li><a href="Listar Clientes, Fornecedores, Compras(pedido de compra)">Relatórios</a></li>
-        <li><a href="">Financeiro</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="cadastro-dropdown">Cadastro<i class="material-icons right"></i></a></li>        
+        <li><a class="dropdown-button" href="#!" data-activates="relatorio-dropdown">Relatórios<i class="material-icons right"></i></a></li>        
+        <li><a class="dropdown-button" href="#!" data-activates="recurso-dropdown">Recurso<i class="material-icons right"></i></a></li>        
       </ul>
     </div>
   </nav>
@@ -34,7 +51,7 @@
     
     <form class="col s12">
       
-
+        
         
     </form>
 
