@@ -21,10 +21,6 @@
   <ul id="relatorio-dropdown" class="dropdown-content">
         <li><a href="#!">Cliente</a></li>
         <li><a href="#!">Fornecedor</a></li>
-        <li><a href="#!">Estoque baixo</a></li>
-        <li><a href="#!">Mercadorias</a></li>
-        <li><a href="#!">Pedidos de compra</a></li>
-        <li><a href="#!">Pedido a imprimir</a></li>
         
   </ul>
   
