@@ -4,6 +4,7 @@
 <head>
     <title>GitanioAdm</title>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/gitanioAdm.css">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -37,9 +38,9 @@
             <img src="icons/gitanio_white.png" alt="Gitânio"/> <span id="logo-text">itânio ADM</span>  
         </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a class="dropdown-button" href="#!" data-activates="cadastro-dropdown">Cadastro<i class="material-icons right"></i></a></li>        
-        <li><a class="dropdown-button" href="#!" data-activates="relatorio-dropdown">Relatórios<i class="material-icons right"></i></a></li>        
-        <li><a class="dropdown-button" href="#!" data-activates="recurso-dropdown">Recurso<i class="material-icons right"></i></a></li>        
+        <li><a class="dropdown-button" href="#!" data-activates="cadastro-dropdown">Cadastro<i class="material-icons right">arrow_drop_down</i></a></li>        
+        <li><a class="dropdown-button" href="#!" data-activates="relatorio-dropdown">Relatórios<i class="material-icons right">arrow_drop_down</i></a></li>        
+        <li><a class="dropdown-button" href="#!" data-activates="recurso-dropdown">Recurso<i class="material-icons right">arrow_drop_down</i></a></li>        
       </ul>
     </div>
   </nav>
